@@ -25,6 +25,7 @@ def invalid_token_callback(error):
 
 
 api.add_resource(students,'/students')
+api.add_resource(course_details,'/add_course')
 
 
 if __name__=='__main__':
